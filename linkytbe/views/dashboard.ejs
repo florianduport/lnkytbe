@@ -58,7 +58,7 @@
             <br/><br/>
             <fieldset>
                 <legend>My Links</legend>
-                <a class="btn btn-success pull-right" href="#" role="button">Create a new link</a>
+                <a class="btn btn-success pull-left" href="#" role="button">Create a new link</a>
                 <br/><br/>
                 <table class="table">
                     <thead>
@@ -88,12 +88,14 @@
             <br/><br/>
             <fieldset>
                 <legend>My Account</legend>
-                <form class="col-lg-6" action="/account/editAccountInfos">
+                <form class="col-lg-offset-4 col-lg-4" action="/account/editAccountInfos">
                     <label for="inputName" class="sr-only">Name</label>
                     <input name="name" type="text" id="inputName" class="form-control" placeholder="Name" required="" autofocus="">
                     <label for="inputFirstname" class="sr-only">Name</label>
                     <input name="firstname" type="text" id="inputFirstname" class="form-control" placeholder="First name" required="" autofocus="">
                     <label for="inputBitlyAccount" class="sr-only">Name</label>
+                    <label for="inputYoutube" class="sr-only">Youtube Channel</label>
+                    <input name="youtube" type="text" id="inputYoutube" class="form-control" placeholder="Youtube Channel" required="" autofocus="">
                     <input name="bitlyaccount" type="text" id="inputBitlyAccount" class="form-control" placeholder="Bit.ly account" required="" autofocus="">
                     <label for="inputBitlyApi" class="sr-only">Name</label>
                     <input name="bitlyapi" type="text" id="inputBitlyApi" class="form-control" placeholder="Bit.ly api key" required="" autofocus="">
