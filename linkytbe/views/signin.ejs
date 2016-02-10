@@ -1,0 +1,63 @@
+<style>
+    body{
+        background-color: #f9f9f9;
+    }
+    #signInContainer, .navbar{
+        background: #fff;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    }
+    .navbar-brand{
+        color: #000 !important;
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    p{
+        color: #fff;
+    }
+    #downArrow{
+        padding-top: 30px;
+    }
+    footer{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background-color: #1e1e1e;
+    }
+    footer p{
+        color: grey;
+    }
+    #signInContainer{
+        border-radius: .25rem;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+</style>
+
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Linkytbe</a>
+    </div>
+  </div>
+</nav>
+<div id="mainContent" class="container">
+    
+    <div id="signInContainer" class="col-lg-offset-3 col-lg-6">
+        <form class="form-signin">
+            <h2 class="form-signin-heading text-center">Sign in</h2>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
+    </div>
+    
+</div>
